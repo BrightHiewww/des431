@@ -18,6 +18,7 @@ class Customer(models.Model):
     # "python3.8 manage.py makemigrations" is used to generate sql
     # add 'myapp' in settings.py in myproject
     # don't forget to save each change
+    # what
 
     def __str__(self):
         return "%s"%(self.user)
